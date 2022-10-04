@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# My First NFT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+"My First NFT" is a project focused on demonstrating the nearness of the web3 world to the average web2 user. 
 
-Try running some of the following tasks:
+# Instructions
+1. Visit the deployed website is [here](https://main.d36f5csne9gwc5.amplifyapp.com/)
+2. Pick a Canvas size (8x8, 16x16, 32x32, 64x64)
+3. Pick a color from the color palette to start drawing!
+4. Click "Export as PNG" when finished.
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Developer TODO:
+1. Implement OpenSea.io and MetaMask intergration
+2. Implement Mainnet and Testnet options so users that do not want to connect real funds can use 
+
+
+
