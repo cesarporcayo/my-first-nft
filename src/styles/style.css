@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+}
+
+header {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    max-width: 500px;
+    flex-basis: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.pixel {
+    flex-shrink: 1;
+}
+
+#editor {
+    display: flex;
+    margin: auto;
+}
+#palette {
+    max-height: 100px;
+    box-shadow: 25px 25px blue;
+}
+
+#canvas {
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid;
+    /* box-shadow: 50px 50px yellow; */
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0px 100px;
+}
+
+.title {
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 910px;
+}
+
+.letter {
+    margin: 2px;
+    bottom: 75px;
+    left: 250px;
+    font-size: 150px;
+}
+
+#img-title {
+    max-width: 500px;
+    z-index: -1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#canvas-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#options {
+    margin: auto
+}
+
+#export-button {
+    margin: 20px auto;
+}
+
+button {
+    margin: 20px auto;
+    
+}
