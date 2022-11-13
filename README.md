@@ -8,9 +8,3 @@
 3. Pick a color from the color palette to start drawing!
 4. Click "Export as PNG" when finished.
 
-Developer TODO:
-1. Implement OpenSea.io and MetaMask intergration
-2. Implement Mainnet and Testnet options so users that do not want to connect real funds can use 
-
-
-
